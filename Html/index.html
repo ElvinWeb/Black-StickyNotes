@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black | Sticky-notes</title>
+    <link rel="stylesheet" href="../StyleSheet/main.css" />
+    <!-- Iconscout Link For Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- FontAwesome CDN for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p class="popup-title">Add a New Note</p>
+            <i class="fa-solid fa-xmark close"></i>
+          </header>
+          <form action="" class="add-form">
+            <div class="row title">
+              <label for="">Title</label>
+              <input type="text" id="note-title" />
+            </div>
+            <div class="row description">
+              <label for="">Description</label>
+              <textarea id="note-text"></textarea>
+            </div>
+            <button id="add-btn">Add Note</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <li class="add-box">
+        <div class="icon">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <p>Add New Note</p>
+      </li>
+    </div>
+    <script src="../JavaScript/app.js"></script>
+  </body>
+</html>
